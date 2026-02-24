@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>remote-notification</string>
+    </array>
+    <key>NSUserNotificationUsageDescription</key>
+    <string>التطبيق يحتاج الإذن لإظهار الإشعارات</string>
+
+    <!-- إذن الوصول إلى مكتبة الصور لقراءة الصور -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>نحتاج إلى الوصول إلى مكتبة الصور لحفظ الفيديوهات المحملة.</string>
+
+    <!-- إذن إضافة الصور إلى مكتبة الصور -->
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>يحتاج التطبيق إلى إضافة الصور إلى مكتبة الصور لحفظ الفيديوهات المحملة.</string>
+
+    <!-- إذن الوصول إلى الكاميرا -->
+    <key>NSCameraUsageDescription</key>
+    <string>نحتاج إلى إذنك للوصول إلى الكاميرا لالتقاط الفيديوهات.</string>
+
+    <!-- إذن الوصول إلى الميكروفون -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>نحتاج إلى إذنك للوصول إلى الميكروفون لتسجيل الصوت.</string>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-XXXXXXXX~YYYYYYYY</string>  <!-- App ID الحقيقي -->
+
+
+    <!-- باقي إعدادات التطبيق -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>Easysave3</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>easysave3</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(FLUTTER_BUILD_NAME)</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>$(FLUTTER_BUILD_NUMBER)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+</dict>
+</plist>
