@@ -1,75 +1,75 @@
-# 1 Professional Headline
+# 1 Professional Headline | العنوان الاحترافي
 
-🚀 **EasySave: High-Speed Multi-Source Media Downloading & Vault Management Reimagined**
-
----
-
-# 2 Marketing Introduction
-
-In today’s fast-paced digital ecosystem, social media professionals, content creators, and mobile power users constantly need reliable, high-speed access to media content for offline editing, archiving, and research. However, traditional media downloading relies on fragmented web converters, intrusive pop-ups, expired download links, and total progress loss when network coverage drops.
-
-**EasySave** eliminates these operational friction points by providing a unified, client-side mobile solution for multi-platform media resolution. By executing stream manifest extraction directly on the user's device and leveraging HTTP Range header chunking, EasySave delivers seamless video and audio downloading from YouTube, Instagram Reels, and Snapchat Stories—even across unstable mobile networks.
+🚀 **EasySave: إعادة تعريف تنزيل الوسائط متعددة المصادر عالي السرعة وإدارة الخزينة المحمولة**
 
 ---
 
-# 3 Feature Highlights
+# 2 Marketing Introduction | المقدمة التسويقية
 
-* 🎥 **Multi-Platform Media Resolution:** Instantly resolves direct MP4 and MP3 media URLs from YouTube, Instagram Reels, and Snapchat Stories without routing data through third-party conversion servers.
-* ⏯️ **Resumable HTTP Range Engine:** Powered by custom HTTP Range transfer logic, allowing users to pause and resume multi-megabyte video downloads at any point without restarting from zero bytes.
-* 🎵 **Granular Format & Quality Selection:** Extracts video-only streams (1080p, 720p, 480p, 360p), combined muxed streams, and dedicated high-bitrate audio-only files (MP3 & M4A).
-* 📁 **Built-in Media Vault & File Manager:** Organizes saved media within a dedicated local vault featuring list/grid view toggling, instantaneous OS file previews, and cross-platform native sharing.
-* ⚡ **Background Execution Queue:** Enqueues heavy downloads with native operating system notifications via background task scheduling, allowing users to multitask without interrupting active transfers.
-* 💰 **Intelligent Monetization Architecture:** Integrates Google Mobile Ads (AdMob) with automated 5-minute interstitial ad throttling, exponential backoff retries, and user preference controls.
+في النظام البيئي الرقمي المتسارع اليوم، يحتاج محترفو وسائل التواصل الاجتماعي، وصناع المحتوى، ومستخدمو الجوال المتقدمون باستمرار إلى وصول سريع وموثوق للوسائط من أجل التحرير والأرشفة والبحث دون اتصال بالإنترنت. ومع ذلك، تعتمد التنزيلات التقليدية على أدوات تحويل الويب المجزأة، والإعلانات المنبثقة المزعجة، والروابط المنتهية، وفقدان كامل لتقدم التنزيل عند انقطاع تغطية الشبكة.
+
+يقضي **EasySave** على جميع هذه العقبات التشغيلية من خلال توفير حل جوال موحد من جانب العميل لاستخراج الوسائط عبر منصات متعددة. ومن خلال تنفيذ استخراج تدفقات الوسائط مباشرة على جهاز المستخدم والاستفادة من تجزئة ترويسات HTTP Range، يقدم EasySave تنزيلاً سلسًا للفيديو والصوت من YouTube و Instagram Reels و Snapchat Stories—حتى عبر شبكات الجوال غير المستقرة.
 
 ---
 
-# 4 Design Showcase
+# 3 Feature Highlights | أبرز الميزات
 
-EasySave combines modern **Material Design 3** aesthetics with intuitive visual hierarchy to deliver an effortless user experience:
-
-* **Clean, Uncluttered Layout:** A modern, card-based interface with subtle shadows, rounded borders, and custom background tones designed for clarity.
-* **Intuitive Navigation:** Quick-access horizontal category chips and bottom navigation bars allow rapid switching between downloaders, active transfers, and saved files.
-* **Dynamic Motion & Typography:** Features marquee text scrolling for long video titles, custom Arabic and Latin typography (Cairo, PoetsenOne, Pacifico, ElMessiri), and fluid progress indicators.
-* **Adaptive Theme Support:** Designed for high readability in both system-matched Light and Dark modes with responsive grid scaling across device breakpoints.
-
----
-
-# 5 Technical Highlights
-
-* **Frontend:** Flutter SDK (`^3.7.0`), Material Design 3, `Provider` & `ChangeNotifier` reactive state management.
-* **Downloader Engine:** `Dio` (`^5.8.0+1`) with HTTP Range headers (`bytes=X-`), native `flutter_downloader` (`^1.12.0`) OS task queueing.
-* **Stream Resolution & Parsing:** `youtube_explode_dart` (`^2.3.10`), `html` (`^0.15.1`) DOM scraping, and Regex JSON `window._sharedData` extraction.
-* **Storage & Security:** Android 11+ `MANAGE_EXTERNAL_STORAGE` permission guards, `path_provider`, and `SharedPreferences` preference persistence.
-* **Monetization:** `google_mobile_ads` (`^5.3.1`) managing Banner, Interstitial, and Rewarded ad lifecycles.
+* 🎥 **استخراج وسائط متعدد المنصات (Multi-Platform Resolution):** تحليل فوري لروابط MP4 و MP3 المباشرة من يوتيوب، ريلز إنستغرام، وقصص سناب شات دون إرسال البيانات عبر خوادم تحويل خارجية.
+* ⏯️ **محرك HTTP Range قابل للاستئناف:** مدعوم بآلية نقل HTTP Range مخصصة، تتيح للمستخدمين إيقاف واستئناف تنزيل الفيديوهات كبيرة الحجم في أي وقت دون إعادة البدء من الصفر.
+* 🎵 **تحديد دقيق للصيغ والجودات:** استخراج تدفقات الفيديو فقط (1080p, 720p, 480p, 360p)، والتدفقات المدمجة (Muxed)، وملفات الصوت المستقلة عالية الجودة (MP3 & M4A).
+* 📁 **خزينة وسائط ومدير ملفات مدمج:** تنظيم الوسائط المحفوظة داخل خزينة محلية مخصصة تتميز بتبديل العرض بين الشبكة والقائمة، ومعاينة فورية للملفات، ومشاركة محلية عبر تطبيق النظام.
+* ⚡ **قائمة تنفيذ في الخلفية (Background Queue):** إدراج التنزيلات الكبيرة في قائمة الانتظار مع إشعارات نظام التشغيل المحلية عبر جدولة المهام في الخلفية، مما يتيح للمستخدم إنجاز مهام متعددة دون مقاطعة التنزيلات.
+* 💰 **معمارية تحقيق دخل ذكية (Monetization):** دمج Google Mobile Ads (AdMob) مع تقييد آلي للإعلانات البينية كل 5 دقائق، وإعادة المحاولة مع الفشل، وخيارات تحكم للمستخدم.
 
 ---
 
-# 6 Business Benefits
+# 4 Design Showcase | استعراض التصميم
 
-* **Operational Efficiency:** Saves time and mobile data through local client-side extraction and resumable byte transfers.
-* **Bandwidth Loss Prevention:** HTTP Range headers ensure partial downloads are never discarded when connections drop.
-* **Data Privacy & Security:** Operates entirely on-device without passing user data or URLs to intermediate third-party proxy servers.
-* **Sustainable App Monetization:** Balanced ad integration generates predictable ad revenue while maintaining an uninterrupted user flow.
+يجمع EasySave بين جماليات **Material Design 3** الحديثة والتسلسل الهرمي البصري الحدسي لتقديم تجربة مستخدم سلسة:
 
----
-
-# 7 Target Audience
-
-* **Content Creators & Video Editors** requiring high-quality offline media assets for re-editing and inspiration.
-* **Social Media Managers & Marketers** archiving campaigns and competitor content.
-* **Educators & Researchers** building offline video libraries for presentation and study.
-* **Mobile Power Users** wanting quick, reliable offline access to media across YouTube, Instagram, and Snapchat.
+* **تخطيط نظيف ومنظم:** واجهة عصرية تعتمد على البطاقات ذات ظلال خفيفة، وحواف منحنية، ودرجات خلفية مخصصة لوضوح الرؤية.
+* **تنقل حدسي:** رقاقات تصنيف أفقية سريعة وشريط تنقل سفلي يتيح التبديل السريع بين أدوات التحميل، التنزيلات النشطة، والملفات المحفوظة.
+* **حركة وتيبوغرافيا ديناميكية:** تحريك النصوص الطويلة (Marquee) لعناوين الفيديو، وخطوط عربية ولاتينية مخصصة (Cairo, PoetsenOne, Pacifico, ElMessiri)، ومؤشرات تقدم انسيابية.
+* **دعم السمة المتكيفة (Adaptive Theme):** مصمم للقراءة العالية في الوضعين الفاتح والداكن (Light/Dark Mode) مع استجابة مرنة عبر مختلف قياسات الشاشات.
 
 ---
 
-# 8 Call To Action
+# 5 Technical Highlights | الميزات التقنية
 
-🌟 **Ready to experience the next evolution in mobile media downloading?**
+* **الواجهة الأمامية (Frontend):** Flutter SDK (`^3.7.0`), Material Design 3, إدارة الحالة عبر `Provider` & `ChangeNotifier`.
+* **محرك التنزيل (Downloader Engine):** `Dio` (`^5.8.0+1`) مع ترويسات HTTP Range (`bytes=X-`), ونظام `flutter_downloader` (`^1.12.0`) للتحميل في الخلفية.
+* **استخراج التدفقات والتحليل:** `youtube_explode_dart` (`^2.3.10`), كشط HTML DOM عبر `html` (`^0.15.1`), واستخراج JSON من `window._sharedData` عبر Regex.
+* **التخزين والأمان:** صلاحيات أندرويد 11+ (`MANAGE_EXTERNAL_STORAGE`), و `path_provider`, وحفظ التفضيلات عبر `SharedPreferences`.
+* **تحقيق الدخل (Monetization):** حزمة `google_mobile_ads` (`^5.3.1`) لإدارة إعلانات البانر، الإعلانات البينية، وإعلانات المكافأة.
 
-Explore the repository, test the release build, or contribute to the open-source codebase on GitHub today!
+---
 
-👉 **[View Project on GitHub](https://github.com/mosaa65/EasySave-Flutter-Downloader)**  
-📧 *For inquiries, partnerships, or technical feedback, contact **Inama Soft** at mousa.mc13@gmail.com.*
+# 6 Business Benefits | الفوائد التجارية
+
+* **كفاءة تشغيلية:** توفير الوقت وبيانات الجوال من خلال الاستخراج المباشر من جانب العميل والنقل المجزأ القابل للاستئناف.
+* **منع فقدان نطاق التردد (Bandwidth):** تضمن ترويسات HTTP Range عدم ضياع أجزاء التنزيل المحملة عند انقطاع الاتصال.
+* **خصوصية البيانات والأمان:** يعمل بالكامل على الجهاز دون تمرير بيانات المستخدم أو الروابط عبر خوادم وساطة خارجية.
+* **تحقيق دخل مستدام:** دمج متوازن للإعلانات يولد عوائد متوقعة مع الحفاظ على تجربة مستخدم غير منقطعة.
+
+---
+
+# 7 Target Audience | الجمهور المستهدف
+
+* **صناع المحتوى ومحررو الفيديو** الذين يحتاجون وسائط عالية الجودة دون اتصال لإعادة التحرير والاستلهام.
+* **مديرو وسائل التواصل الاجتماعي والمسوقون** لأرشفة الحملات ومحتوى المنافسين.
+* **المعلمون والباحثون** لبناء مكتبات فيديو تعمل دون اتصال للعروض التقديمية والدراسة.
+* **مستخدمو الجوال المتقدمون** الراغبون في وصول سريع وموثوق للوسائط عبر YouTube و Instagram و Snapchat.
+
+---
+
+# 8 Call To Action | دعوة للمشاركة
+
+🌟 **هل أنت جاهز لتجربة الجيل الجديد من تنزيل الوسائط على الجوال؟**
+
+استكشف المستودع، اختبر حزمة الإصدار، أو شارك في التطوير البرمجي على GitHub اليوم!
+
+👉 **[عرض المشروع على GitHub](https://github.com/mosaa65/EasySave-Flutter-Downloader)**  
+📧 *للإستفسارات، الشراكات، أو الملاحظات التقنية، تواصل مع **فريق Inama Soft** عبر البريد: mousa.mc13@gmail.com*
 
 ---
 
@@ -79,125 +79,125 @@ Explore the repository, test the release build, or contribute to the open-source
 
 ---
 
-# 10 Platform Versions
+# 10 Platform Versions | منشورات المنصات الاجتماعية
 
-### 📘 Facebook Post
-🚀 **Say goodbye to broken media downloads and slow converters!**
+### 📘 منشور فيسبوك (Facebook Post)
+🚀 **وداعاً للتنزيلات المعطوبة وأدوات التحويل البطئية!**
 
-Meet **EasySave**—the ultimate cross-platform mobile app designed to extract and save video & audio content seamlessly from YouTube, Instagram, and Snapchat.
+تعرّف على **EasySave**—تطبيق الجوال المتكامل والمصمم لاستخراج وحفظ محتوى الفيديو والصوت بسلاسة من YouTube و Instagram و Snapchat.
 
-✨ **Key Highlights:**
-• 🎥 Full YouTube manifest extraction (1080p, 720p, audio MP3/M4A)
-• ⏯️ Resumable downloads (pause and resume anytime!)
-• 📁 Built-in media vault with grid/list views and native sharing
-• ⚡ Native background task execution
+✨ **أبرز المميزات:**
+• 🎥 استخراج كامل لتدفقات يوتيوب (1080p, 720p, وصوت MP3/M4A)
+• ⏯️ تنزيل قابل للاستئناف (إيقاف وإكمال في أي وقت!)
+• 📁 خزينة وسائط مدمجة مع عرض الشبكة/القائمة والمشاركة المباشرة
+• ⚡ تنفيذ المهام في الخلفية عبر نظام التشغيل
 
-Built with Flutter & Dart for lightning-fast performance.
+بُني باستعمال Flutter & Dart لأداء فائق السرعة.
 
-🔗 Check out the project on GitHub: https://github.com/mosaa65/EasySave-Flutter-Downloader
+🔗 استكشف المشروع على GitHub: https://github.com/mosaa65/EasySave-Flutter-Downloader
 
 #Flutter #MobileApp #TechLaunch #EasySave #InamaSoft
 
 ---
 
-### 💼 LinkedIn Post
-🚀 **Engineering Highlight: EasySave — High-Performance Mobile Media Downloader & Vault**
+### 💼 منشور لينكد إن (LinkedIn Post)
+🚀 **إبراز هندسي: EasySave — تطبيق جوال عالي الأداء لتنزيل الوسائط وإدارتها**
 
-I’m excited to highlight **EasySave**, a cross-platform mobile utility engineered with **Flutter** and **Dart** to solve real-world network resilience and media extraction challenges.
+يسعدني تسليط الضوء على **EasySave**، أداة الجوال متعددة المنصات والمطورة باستخدام **Flutter** و **Dart** لحل تحديات استقرار الشبكة واستخراج الوسائط.
 
-**Technical & Architectural Strengths:**
-🔹 **Client-Side Manifest Resolution:** Parses YouTube stream manifests and social media DOM structures directly on-device without intermediate conversion servers.
-🔹 **HTTP Range Resumable Engine:** Utilizes `Dio` range headers (`bytes=X-`) to allow pausing and resuming transfers across intermittent network coverage.
-🔹 **Reactive State Management:** Employs Singleton controllers and `Provider`/`ChangeNotifier` for real-time progress updates and native OS background queuing.
-🔹 **Ad Monetization Governance:** Integrated Google Mobile Ads SDK with automated 5-minute interstitial throttling and persistent user controls.
+**نقاط القوة الهندسية والمعمارية:**
+🔹 **استخراج البيانات من جانب العميل:** تحليل تدفقات يوتيوب وهياكل شبكات التواصل على الجهاز مباشرة دون خوادم تحويل وسيطة.
+🔹 **محرك استئناف عبر HTTP Range:** استخدام ترويسات `Dio` Range (`bytes=X-`) لإتاحة إيقاف واستئناف النقل عبر الشبكات المتقطعة.
+🔹 **إدارة حالة تفاعلية:** الاعتماد على متحكمات Singleton و `Provider`/`ChangeNotifier` للتحديث الفوري لنسبة التنزيل والجدولة في الخلفية.
+🔹 **حوكمة الإعلانات:** دمج Google Mobile Ads SDK مع تقييد الإعلانات البينية كل 5 دقائق وخيارات التحكم للمستخدم.
 
-Congratulations to the engineering team at **Inama Soft** for delivering a performant, maintainable product!
+تهانينا لفريق الهندسة في **Inama Soft** على تقديم منتج عالي الأداء وقابل للصيانة!
 
-📂 **GitHub Repository:** https://github.com/mosaa65/EasySave-Flutter-Downloader
+📂 **مستودع GitHub:** https://github.com/mosaa65/EasySave-Flutter-Downloader
 
 #SoftwareEngineering #Flutter #Dart #MobileDevelopment #Architecture #CleanCode #SystemDesign #InamaSoft
 
 ---
 
-### 🐦 X (Twitter) Post
-⚡ Multi-source media downloading made effortless!
+### 🐦 منشور إكس / تويتر (X / Twitter Post)
+⚡ تنزيل الوسائط متعدد المصادر أصبح أسهل من أي وقت مضى!
 
-Meet **EasySave** 📥
-✨ YouTube 1080p / MP3 extraction
-✨ Instagram Reels & Snapchat scrapers
-✨ Pause/Resume HTTP range transfers
-✨ Built-in local media vault
-✨ Built with Flutter & Dart
+تعرّف على **EasySave** 📥
+✨ استخراج فيديوهات يوتيوب 1080p وصوت MP3
+✨ كشط ريلز إنستغرام وقصص سناب شات
+✨ إيقاف/استئناف التنزيل عبر HTTP Range
+✨ خزينة وسائط محلية مدمجة
+✨ مطوّر باستعمال Flutter & Dart
 
-🔗 Star on GitHub: https://github.com/mosaa65/EasySave-Flutter-Downloader
+🔗 ادعم المشروع بنجمة على GitHub: https://github.com/mosaa65/EasySave-Flutter-Downloader
 
 #Flutter #Dart #AppDev #OpenSource #EasySave
 
 ---
 
-### 📸 Instagram Post
-✨ **Streamlining Mobile Media Downloading with EasySave** 📥
+### 📸 منشور إنستغرام (Instagram Post)
+✨ **تبسيط تنزيل الوسائط على الجوال مع EasySave** 📥
 
-Whether you’re downloading YouTube tutorials in 1080p, saving Instagram Reels, or archiving Snapchat Stories, **EasySave** delivers a clean, high-speed mobile experience.
+سواء كنت تقوم بتنزيل الشروحات من يوتيوب بدقة 1080p، أو حفظ ريلز إنستغرام، أو أرشفة قصص سناب شات، يقدم **EasySave** تجربة جوال فائقة السرعة والنظافة.
 
-🔥 **Features You’ll Love:**
-📱 Clean Material 3 interface & dark mode
-⏯️ Resumable transfers (no lost progress!)
-🎵 Instant MP3/M4A audio extraction
-📁 Built-in vault with native preview & share
+🔥 **مميزات ستعجبك:**
+📱 واجهة عصرية بـ Material 3 والوضع الداكن
+⏯️ تنزيل قابل للاستئناف (بدون فقدان للتقدم!)
+🎵 استخراج فوري للصوت بصيغة MP3/M4A
+📁 خزينة مدمجة للمعاينة والمشاركة الفورية
 
-Made with ❤️ by Inama Soft.
+تم التطوير بحب بواسطة فريق Inama Soft ❤️
 
-🔗 Link in bio to check out the codebase!
+🔗 الرابط في البايو لاستكشاف المشروع!
 
 #FlutterDev #UIUX #MobileDesign #EasySave #Flutter #SoftwareProduct #InamaSoft #AppDesign
 
 ---
 
-### ✈️ Telegram Post
-📣 **Project Showcase: EasySave — Cross-Platform Media Downloader**
+### ✈️ منشور تليجرام (Telegram Post)
+📣 **استعراض مشروع: EasySave — تطبيق تنزيل الوسائط متعدد المنصات**
 
-EasySave is a powerful Flutter app designed for fast media extraction and offline file management.
+EasySave تطبيق فلاتر قوي صُمم لاستخراج الوسائط بسرعة وإدارة الملفات دون اتصال.
 
-**Core Capabilities:**
-• Multi-platform extraction: YouTube, Instagram, Snapchat
-• HTTP Range header pause/resume downloading
-• Quality selection: 1080p, 720p, 480p, audio MP3/M4A
-• Local media vault with grid/list view & OS sharing
-• Native background downloading & AdMob integration
+**القدرات الأساسية:**
+• استخراج متعدد المنصات: YouTube, Instagram, Snapchat
+• تنزيل مجزأ قابل للاستئناف عبر HTTP Range
+• اختيار الجودة: 1080p, 720p, 480p, وصوت MP3/M4A
+• خزينة وسائط محلية مع عرض شبكي/قائمة ومشاركة
+• تنزيل في الخلفية ودمج شبكة AdMob
 
-📂 **GitHub Repo:** https://github.com/mosaa65/EasySave-Flutter-Downloader
-💬 Developed by **Inama Soft — Collaborative Development Group**
+📂 **مستودع GitHub:** https://github.com/mosaa65/EasySave-Flutter-Downloader
+💬 تم التطوير بواسطة **فريق Inama Soft — مجموعة تطوير تعاونية**
 
 #Flutter #Mobile #ProjectShowcase #EasySave
 
 ---
 
-# 11 SEO Keywords
+# 11 SEO Keywords | الكلمات المفتاحية
 
 EasySave, Flutter Media Downloader, YouTube Video Downloader App, Instagram Reels Downloader, Snapchat Story Downloader, Resumable HTTP Downloader, Dio Range Header Downloader, Flutter App Development, Dart Mobile Application, Offline Media Manager, MP3 Audio Extractor, YouTube Stream Manifest Extractor, Mobile File Vault, Flutter Downloader Package, AdMob Flutter Integration, Material Design 3 Mobile App, Cross-Platform Video Downloader, Android Media Storage App, Mobile Scraper Engine, Inama Soft Development.
 
 ---
 
-# 12 Image Captions
+# 12 Image Captions | تسميات الصور
 
-* **Hero View (`Screenshots/Screenshot_٢٠٢٥٠٤١٥-٢٠٥٧٣٩.jpg`):**  
-  *EasySave Downloader Workspace — Stream manifest extraction interface displaying quality selection tiers for video and audio downloads.*
+* **صورة الهيرو الرئيسية (`Screenshots/Screenshot_٢٠٢٥٠٤١٥-٢٠٥٧٣٩.jpg`):**  
+  *مساحة عمل تنزيل EasySave — واجهة استخراج تدفقات الوسائط والتي تستعرض خيارات الجودة المتاحة لتنزيل الفيديو والصوت.*
 
-* **Main Dashboard (`Screenshots/Screenshot_٢٠٢٥٠٤٠٣-٢٢٤٩٠٩.jpg`):**  
-  *Main Navigation Hub — Clean Material 3 dashboard featuring category chips, promotion banners, and service routing.*
+* **اللوحة الرئيسية (`Screenshots/Screenshot_٢٠٢٥٠٤٠٣-٢٢٤٩٠٩.jpg`):**  
+  *مركز التنقل الرئيسي — واجهة عصرية بلغة Material 3 تستعرض رقاقات التصنيفات، البانرات الترويجية، وتوجيه الخدمات.*
 
-* **Stream Resolution Options (`Screenshots/Screenshot_٢٠٢٥٠٦١٦-٠٢٥٣٤٩.jpg`):**  
-  *Quality Tier Selector — Live YouTube video stream resolution breakdown ranging from 1080p HD to 360p.*
+* **خيارات جودة الفيديو (`Screenshots/Screenshot_٢٠٢٥٠٦١٦-٠٢٥٣٤٩.jpg`):**  
+  *محدد مستويات الجودة — تفاصيل دقة تدفقات فيديو يوتيوب المباشرة والتي تمتد من 1080p HD وحتى 360p.*
 
-* **Format Options (`Screenshots/Screenshot_٢٠٢٥٠٦١٦-٠٢٥٣٥٢.jpg`):**  
-  *Muxed & Audio Stream Selector — Fast switching between video+audio muxed files and high-bitrate MP3/M4A audio.*
+* **خيارات الصيغ والصوت (`Screenshots/Screenshot_٢٠٢٥٠٦١٦-٠٢٥٣٥٢.jpg`):**  
+  *محدد تدفقات الصوت والفيديو — تبديل سريع بين ملفات الفيديو المدمجة مع الصوت وبين ملفات الصوت المستقلة عالية الجودة MP3/M4A.*
 
-* **Active Downloads & Media Vault (`Screenshots/Screenshot_٢٠٢٥٠٦١٦-٠٢٥٣٥٨.jpg`):**  
-  *Active Downloads Manager & Storage Vault — Real-time progress monitoring, pause/resume controls, and local media management.*
+* **التنزيلات النشطة وخزينة الوسائط (`Screenshots/Screenshot_٢٠٢٥٠٦١٦-٠٢٥٣٥٨.jpg`):**  
+  *إدارة التنزيلات النشطة وخزينة التخزين — متابعة فورية لتقدم التحميل، أدوات الإيقاف والإكمال، وإدارة الملفات المحلية.*
 
 ---
 
-# 13 Overall Project Summary
+# 13 Overall Project Summary | الملخص التنفيذي للمشروع
 
-**EasySave** is a high-performance cross-platform mobile application built with Flutter and Dart that redefines mobile media downloading and file management. By integrating client-side stream manifest extraction for YouTube, Instagram, and Snapchat with a custom `Dio` HTTP Range header resumable transfer engine, EasySave ensures fast, unbroken media saving across unstable cellular networks. With its polished Material Design 3 user interface, reactive state architecture, local media vault, and intelligent Google Mobile Ads monetization, EasySave represents a production-ready utility product crafted to high software engineering standards.
+تطبيق **EasySave** هو تطبيق جوال متعدد المنصات عالي الأداء تم بناؤه باستعمال Flutter و Dart ليُعيد تعريف تنزيل الوسائط وإدارة الملفات على الجوال. ومن خلال دمج استخراج تدفقات الوسائط من جانب العميل لـ YouTube و Instagram و Snapchat مع محرك تنزيل مجزأ مخصص عبر ترويسات `Dio` HTTP Range، يضمن EasySave حفظ الوسائط بسرعة ودون انقطاع حتى عبر شبكات الجوال الضعيفة. ومع واجهته المصممة بلغة Material Design 3، ومعماريته التفاعلية، وخزينته المحلية، ونظام تحقيق الدخل الذكي عبر Google Mobile Ads، يمثل EasySave منتجًا جاهزًا للإنتاج ومبنيًا وفق أعلى المعايير الهندسية.

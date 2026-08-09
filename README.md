@@ -22,6 +22,8 @@
 > [![EasySave Downloader Workspace](<Screenshots/Screenshot_٢٠٢٥٠٤١٥-٢٠٥٧٣٩.jpg>)](<Screenshots/Screenshot_٢٠٢٥٠٤١٥-٢٠٥٧٣٩.jpg>)
 >
 > A unified mobile console for YouTube stream extraction, Instagram Reels parsing, Snapchat stories downloading, resumable HTTP range transfers, and local media vault management.
+>
+> واجهة تشغيل موحدة لاستخراج تدفقات يوتيوب، وتحليل ريلز إنستغرام، وتنزيل قصص سناب شات، والنقل القابل للاستئناف عبر HTTP Range، وإدارة خزينة الوسائط المحلية.
 
 ---
 
@@ -85,6 +87,8 @@ flutter run
 ```
 
 Configure required Android storage permissions and AdMob App IDs as described in [Installation & Configuration](#installation--configuration--التثبيت-والإعداد).
+
+اضبط صلاحيات التخزين المطلوبة في أندرويد ومعرفات تطبيق AdMob كما هو موضح في قسم [التثبيت والإعداد](#installation--configuration--التثبيت-والإعداد).
 
 ---
 
@@ -496,6 +500,8 @@ easysave3/
 ## API Overview
 
 > **Integration Boundary:** EasySave operates as a client-side mobile application. It does not connect to a proprietary backend REST API; instead, it interfaces directly with public media endpoints (YouTube streams, Instagram CDN, Snapchat CDN) and Google Mobile Ads SDK endpoints.
+>
+> **حدود التكامل:** يعمل إيزي سيف كتطبيق جوال من جانب العميل. لا يتصل بواجهة برمجة تطبيقات REST خاصة بالخادم؛ بل يتفاعل مباشرة مع نقاط النهاية العامة للوسائط (تدفقات يوتيوب، شبكة توصيل محتوى إنستغرام، وشبكة سناب شات) ونقاط حزمة إعلانات Google Mobile Ads.
 
 | Domain | Integration Mechanism | Responsibility |
 | --- | --- | --- |
@@ -587,6 +593,8 @@ flutter build appbundle --release
 ```
 
 The resulting binaries in `build/app/outputs/flutter-apk/` can be distributed directly or submitted to the Google Play Store.
+
+يمكن توزيع الملفات التنفيذية الناتجة في `build/app/outputs/flutter-apk/` مباشرة أو رفعها على متجر Google Play.
 
 ---
 
