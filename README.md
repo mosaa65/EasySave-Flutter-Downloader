@@ -162,17 +162,13 @@ Select any image or video demonstration to view it at full size. The verified UI
 
 ### Video Demonstrations & Workflows | العروض المرئية ومسارات العمل
 
-| YouTube Stream Extraction | Resumable Transfers Flow | Media Vault & File Operations |
+| Resumable Transfers Flow | Media Vault & File Operations | Instagram Reels Extraction |
 | --- | --- | --- |
-| [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020260123-213709.mp4>)<br><sub>Video — YouTube quality manifest extraction</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020260123-214030.mp4>)<br><sub>Video — Range-based resumable downloads</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250420-022642.mp4>)<br><sub>Video — Media vault preview & sharing</sub> |
+| <video src="Screenshots/Screen%20Recording%2020260123-214030.mp4" controls width="100%"></video><br><sub>Video — Range-based resumable downloads</sub> | <video src="Screenshots/Screen%20Recording%2020250420-022642%20-%20Copy.mp4" controls width="100%"></video><br><sub>Video — Media vault preview & sharing</sub> | <video src="Screenshots/Screen%20Recording%2020250419-000628%20-%20Copy.mp4" controls width="100%"></video><br><sub>Video — Instagram Reels extraction</sub> |
 
-| Instagram Reels Extraction | Snapchat Story Scraper | Audio Extraction & MP3 |
+| Snapchat Story Scraper | Audio Extraction & MP3 | Background Execution & Ads |
 | --- | --- | --- |
-| [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250419-000628.mp4>)<br><sub>Video — Instagram Reels extraction</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250419-021602.mp4>)<br><sub>Video — Snapchat story video scraper</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250408-161326.mp4>)<br><sub>Video — Audio-only MP3/M4A extraction</sub> |
-
-| Background Execution & Ads | Quick Downloader & Permissions |
-| --- | --- |
-| [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250418-235442.mp4>)<br><sub>Video — Background execution & AdMob integration</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250408-040940.mp4>)<br><sub>Video — Quick downloader & storage permissions</sub> |
+| <video src="Screenshots/Screen%20Recording%2020250419-021602%20-%20Copy%20-%20Copy.mp4" controls width="100%"></video><br><sub>Video — Snapchat story video scraper</sub> | <video src="Screenshots/Screen%20Recording%2020250408-161326%20-%20Copy%20-%20Copy.mp4" controls width="100%"></video><br><sub>Video — Audio-only MP3/M4A extraction</sub> | <video src="Screenshots/Screen%20Recording%2020250418-235442%20-%20Copy%20-%20Copy.mp4" controls width="100%"></video><br><sub>Video — Background execution & AdMob integration</sub> |
 
 ---
 
