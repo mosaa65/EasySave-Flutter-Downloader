@@ -19,7 +19,7 @@
 
 > **Hero view — Multi-Source Media Downloading Workspace**
 >
-> [![EasySave mobile dashboard](assets/banner.jpg)](assets/banner.jpg)
+> [![EasySave Downloader Workspace](<Screenshots/Screenshot_٢٠٢٥٠٤١٥-٢٠٥٧٣٩.jpg>)](<Screenshots/Screenshot_٢٠٢٥٠٤١٥-٢٠٥٧٣٩.jpg>)
 >
 > A unified mobile console for YouTube stream extraction, Instagram Reels parsing, Snapchat stories downloading, resumable HTTP range transfers, and local media vault management.
 
@@ -144,11 +144,11 @@ Select any image or video demonstration to view it at full size. The verified UI
 
 اضغط على أي صورة أو عرض مرئي لمشاهدته بالحجم الكامل. توجد لقطات الواجهة والتسجيلات الموثقة في `Screenshots/`.
 
-### Core Application & Home Workspace | الواجهة الرئيسية والتصفح
+### Core Application & Downloader Workspace | الواجهة الرئيسية ومساحة التنزيل
 
-| Main Dashboard | Downloader Workspace |
-| --- | --- |
-| [![EasySave Main Dashboard](<Screenshots/Screenshot_٢٠٢٥٠٤٠٣-٢٢٤٩٠٩.jpg>)](<Screenshots/Screenshot_٢٠٢٥٠٤٠٣-٢٢٤٩٠٩.jpg>)<br><sub>Home — Main navigation & category services</sub> | [![EasySave Downloader Workspace](<Screenshots/Screenshot_٢٠٢٥٠٤١٥-٢٠٥٧٣٩.jpg>)](<Screenshots/Screenshot_٢٠٢٥٠٤١٥-٢٠٥٧٣٩.jpg>)<br><sub>Downloader — Link insertion & stream resolution</sub> |
+| Downloader Workspace | Main Dashboard | Promotional Banner |
+| --- | --- | --- |
+| [![EasySave Downloader Workspace](<Screenshots/Screenshot_٢٠٢٥٠٤١٥-٢٠٥٧٣٩.jpg>)](<Screenshots/Screenshot_٢٠٢٥٠٤١٥-٢٠٥٧٣٩.jpg>)<br><sub>Downloader — Stream resolution & link input</sub> | [![EasySave Main Dashboard](<Screenshots/Screenshot_٢٠٢٥٠٤٠٣-٢٢٤٩٠٩.jpg>)](<Screenshots/Screenshot_٢٠٢٥٠٤٠٣-٢٢٤٩٠٩.jpg>)<br><sub>Home — Main navigation & category services</sub> | [![EasySave Promotional Banner](assets/banner.jpg)](assets/banner.jpg)<br><sub>Promotional Banner — In-app offer banner</sub> |
 
 ### Mobile Experience & Media Vault | تجربة الجوال وخزينة الملفات
 
@@ -162,9 +162,13 @@ Select any image or video demonstration to view it at full size. The verified UI
 | --- | --- | --- |
 | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020260123-213709.mp4>)<br><sub>Video — YouTube quality manifest extraction</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020260123-214030.mp4>)<br><sub>Video — Range-based resumable downloads</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250420-022642.mp4>)<br><sub>Video — Media vault preview & sharing</sub> |
 
-| Social Media Scraper Demo | Background Task Queue |
+| Instagram Reels Extraction | Snapchat Story Scraper | Audio Extraction & MP3 |
+| --- | --- | --- |
+| [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250419-000628.mp4>)<br><sub>Video — Instagram Reels extraction</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250419-021602.mp4>)<br><sub>Video — Snapchat story video scraper</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250408-161326.mp4>)<br><sub>Video — Audio-only MP3/M4A extraction</sub> |
+
+| Background Execution & Ads | Quick Downloader & Permissions |
 | --- | --- |
-| [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250419-000628.mp4>)<br><sub>Video — Instagram Reels & Snapchat extraction</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250418-235442.mp4>)<br><sub>Video — Background execution & AdMob integration</sub> |
+| [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250418-235442.mp4>)<br><sub>Video — Background execution & AdMob integration</sub> | [🎬 Watch Video Demo](<Screenshots/Screen%20Recording%2020250408-040940.mp4>)<br><sub>Video — Quick downloader & storage permissions</sub> |
 
 ---
 
